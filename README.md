@@ -3,7 +3,7 @@
 ```shell
 docker run -d  \
   --link upstream_container:upstream \
-  oauth2_proxy \
+  efouts/docker-oauth2-proxy \
   oauth2_proxy \
   --email-domain=* \
   --http-address="http://:80" \
